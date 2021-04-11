@@ -24,4 +24,4 @@ I am a recipient of [“ISCA Young Scientist Award 2017–2018”](http://www.sc
 
 ## Awards
 Received "ISCA Young Scientist Award 2017-18" by Indian Science Congress Association.
-- Related Press Coverage: [Click here](https://timesofindia.indiatimes.com/city/mangaluru/indian-science-congress-honours-mit-manipal-professor-with-young-scientist-award/articleshow/63447042.cms)
+- Related Press Coverage: [Click here](https://timesofindia.indiatimes.com/city/mangaluru/indian-science-congress-honours-mit-manipal-professor-with-young-scientist-award/articleshow/63447042.cms) 
