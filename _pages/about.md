@@ -22,3 +22,6 @@ I obtained Ph.D. degree in image processing from the [Télécom ParisTech](https
 
 I am a recipient of [“ISCA Young Scientist Award 2017–2018”](http://www.sciencecongress.nic.in/young_scientists_awards_17-18.php) by Indian Science Congress Association (ISCA), a professional body under the Department of Science and Technology, Government of India. He was the Joint Secretary, IEEE Mangalore Sub-Section for the year 2019. I am also a recipient of “Young Professional Volunteer Award 2020” by IEEE Mangalore Sub-Section in recognition of his outstanding contribution to IEEE activities.
 
+## Awards
+Received "ISCA Young Scientist Award 2017-18" by Indian Science Congress Association.
+- Related Press Coverage: [Click here](https://timesofindia.indiatimes.com/city/mangaluru/indian-science-congress-honours-mit-manipal-professor-with-young-scientist-award/articleshow/63447042.cms)
