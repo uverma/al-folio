@@ -10,8 +10,12 @@
   volume={9},
   pages={27971--27986},
   year={2021},
-  publisher={IEEE}
-}
+  publisher={IEEE},
+  abstract = {Uncontrolled growth of weeds can severely affect the crop yield and quality. Unrestricted use of herbicide for weed removal alters biodiversity and cause environmental pollution. Instead, identifying weed-infested regions can aid selective chemical treatment of these regions. Advances in analyzing farm images have resulted in solutions to identify weed plants. However, a majority of these approaches are based on supervised learning methods which requires huge amount of manually annotated images. As a result, these supervised approaches are economically infeasible for the individual farmer because of the wide variety of plant species being cultivated. In this paper, we propose a deep learning-based semi-supervised approach for robust estimation of weed density and distribution across farmlands using only limited color images acquired from autonomous robots. This weed density and distribution can be useful in a site-specific weed management system for selective treatment of infected areas using autonomous robots. In this work, the foreground vegetation pixels containing crops and weeds are first identified using a Convolutional Neural Network (CNN) based unsupervised segmentation. Subsequently, the weed infected regions are identified using a fine-tuned CNN, eliminating the need for designing hand-crafted features. The approach is validated on two datasets of different crop/weed species (1) Crop Weed Field Image Dataset (CWFID), which consists of carrot plant images and the (2) Sugar Beets dataset. The proposed method is able to localize weed-infested regions a maximum recall of 0.99 and estimate weed density with a maximum accuracy of 82.13\%. Hence, the proposed approach is shown to generalize to different plant species without the need for extensive labeled data.} 
+  html={https://ieeexplore.ieee.org/document/9350244},
+  pdf={Shantam_Access-2021.pdf},
+  selected={true}
+  }
 
 @inproceedings{bhooshan2008t,
   title={T-Law: A new suggestion for signal companding},
@@ -29,7 +33,10 @@
   booktitle={International Conference on Pattern Recognition Applications and Methods (ICPRAM)},
   pages={402--411},
   year={2014},
-  organization={http://dx.doi.org/10.5220/0004818804020411}
+  organization={http://dx.doi.org/10.5220/0004818804020411},
+  abstract = {In this paper, we present a segmentation procedure based on a parametric active contour with shape constraint, in order to follow the growth of the tomatoes from the images acquired in the field. This is a challenging task because of the poor contrast in the images and the occlusions by the vegetation. In our sequential approach, considering one image per day, we assume that a segmentation of the tomatoes is available for the image acquired the previous day. An initial curve for the active contour model is computed by combining gradient information and region information. Then, an active contour with shape constraint is applied to provide an elliptic approximation of the tomato boundary. We performed a quantitative evaluation of our approach by comparing the results with the manual segmentation. Given the varying degree of occlusion in the images, the image data set was divided into three categories, based on the occlusion degree of the tomato in the processed image. For the cases with low occlusion, good results were obtained, with an average relative distance between the manual segmentation and the automatic segmentation of 2.73\% (expressed as percentage of the size of tomato). For the images with significant amount of occlusion, a good segmentation was obtained on 44\% of the images, where the average error was less than 10\%.}
+  html={https://www.scitepress.org/Papers/2014/48188/pdf/index.html},
+  pdf={ICPRAM_2014_72_CR.pdf}
 }
 
 @article{verma2015segmentation,
@@ -40,7 +47,11 @@
   number={1},
   pages={33},
   year={2015},
-  publisher={Springer International Publishing}
+  publisher={Springer International Publishing},
+  abstract = {In this paper, we present a complete system to monitor the growth of tomatoes from images acquired in open fields. This is a challenging task because of the severe occlusion and poor contrast in the images. We approximate the tomatoes by spheres in the 3D space, hence by ellipses in the image space. The tomatoes are first identified in the images using a segmentation procedure. Then, the size of the tomatoes is measured from the obtained segmentation and camera parameters. The shape information combined with temporal information, given the limited evolution from an image to the next one, is used throughout the system to increase the robustness with respect to occlusion and poor contrast. The segmentation procedure presented in this paper is an extension of our previous work based on active contours. Here, we present a method to update the position of the tomato by comparing the SIFT descriptors computed at predetermined points in two consecutive images. This leads to a very accurate estimation of the tomato position, from which the entire segmentation procedure benefits. The average error between the automatic and manual segmentations is around 4 \% (expressed as the percentage of tomato size) with a good robustness with respect to occlusion (up to 50 \%). The size estimation procedure was evaluated by calculating the size of tomatoes under a controlled environment. In this case, the mean percentage error between the actual radius and the estimated size is around 2.35 \% with a standard deviation of 1.83 \% and is less than 5 \% in most (91 \%) cases. The complete system was also applied to estimate the size of tomatoes cultivated in open fields.},
+  html = {https://jivp-eurasipjournals.springeropen.com/articles/10.1186/s13640-015-0087-0},
+  pdf = {EURASIP_JIVP_Ujjwal.pdf},
+  selected={true}
 }
 
 @incollection{verma2015segmentation,
@@ -49,14 +60,18 @@
   booktitle={Pattern Recognition Applications and Methods},
   pages={162--178},
   year={2015},
-  publisher={Springer International Publishing}
+  publisher={Springer International Publishing},
+  abstract = {With the aim of estimating the growth of tomatoes during the agricultural season, we propose to segment tomatoes in images acquired in open field, and to derive their size from the segmentation results obtained in pairs of images acquired each day. To cope with difficult conditions such as occlusion, poor contrast and movement of tomatoes and leaves, we propose to base the segmentation of an image on the result obtained on the image of the previous day, guaranteeing temporal consistency, and to incorporate a shape constraint in the segmentation procedure, assuming that the image of a tomato is approximately an ellipse, guaranteeing spatial consistency. This is achieved with a parametric deformable model with shape constraint. Results obtained over three agricultural seasons are very good for images with limited occlusion, with an average relative distance between the automatic and manual segmentations of 6.46 \% (expressed as percentage of the size of tomato).},
+  html = {https://link.springer.com/chapter/10.1007/978-3-319-25530-9_11},
+  pdf = {LNCS-Ujjwal-15.pdf}   
 }
 
 @inproceedings{verma2014tomato,
   title={Tomato development monitoring in an open field, using a two-camera acquisition system},
   author={Verma, Ujjwal and Rossant, Florence and Bloch, Isabelle and Orensanz, Julien and Boisgontier, Denis and Lagarrigue, Marthe},
   booktitle={12th International Conference on Precision Agriculture},
-  year={2014}
+  year={2014},
+  pdf = {ICPA2014-Ujjwal.pdf}
 }
 
 @inproceedings{pai2019automatic,
@@ -65,7 +80,10 @@
   booktitle={2019 IEEE Second International Conference on Artificial Intelligence and Knowledge Engineering (AIKE)},
   pages={15--20},
   year={2019},
-  organization={IEEE}
+  organization={IEEE},
+  abstract = {The ubiquitousness of satellite imagery and powerful, computationally efficient Deep Learning frameworks have found profound use in the field of remote sensing. Augmented with easy access to abundant image data made available by different satellites such as LANDSAT and European Space Agency's Copernicus missions, deep learning has opened various avenues of research in monitoring the world's oceans, land, rivers, etc. One significant problem in this direction is the accurate identification and subsequent segmentation of surface-water in images in the microwave spectrum. Typically, standard image processing tools are used to segment the images which are time-inefficient. However, in recent years, deep learning methods for semantic segmentation is the preferred choice given its high accuracy and ease of use. This paper proposes the use of deep-learning approaches such as U-Net to perform an efficient segmentation of river and land. Experimental results show that our approach achieves vastly superior performance on SAR images with pixel accuracy of 0.98 and F1 score of 0.99.},
+  html = {https://ieeexplore.ieee.org/abstract/document/8791719},
+  pdf = {AIKE-Vaibhav-2019.pdf}
 }
 
 @inproceedings{girisha2019semantic,
@@ -74,7 +92,10 @@
   booktitle={2019 IEEE Second International Conference on Artificial Intelligence and Knowledge Engineering (AIKE)},
   pages={21--27},
   year={2019},
-  organization={IEEE}
+  organization={IEEE},
+  abstract = {Semantic segmentation of complex aerial videos enables a better understanding of scene and context. This enhances the performance of automated video processing techniques like anomaly detection, object detection, event detection and other applications. But, there is a limited study of semantic segmentation in aerial videos due to non-availability of the relevant dataset. To address this, an aerial video dataset is captured using DJI Phantom 3 professional drone and is annotated manually. In addition, the proposed research work investigates the performance of semantic segmentation algorithms for aerial videos implemented using Fully Convolution Networks (FCN) and U-net architectures. In this study, two classes (greenery, road) are considered for semantic segmentation. It is observed that both architectures perform competitively on the aerial videos of Unmanned Aerial Vehicle (UAV) with a pixel accuracy of 89.7\% and 87.31\% respectively.},
+  html = {https://ieeexplore.ieee.org/document/8791701},
+  pdf = {AIKE-Girish-2019.pdf}
 }
 
 @article{girisha2019performance,
@@ -84,7 +105,10 @@
   volume={7},
   pages={136239--136253},
   year={2019},
-  publisher={IEEE}
+  publisher={IEEE},
+  abstract ={Semantic segmentation of videos helps in scene understanding, thereby assisting in other automated video processing techniques like anomaly detection, object detection, event detection, etc. However, there has been limited study on semantic segmentation of videos acquired using Unmanned Aerial Vehicles (UAV), primarily due to the absence of standard dataset. In this paper, a new UAV aerial video dataset (ManipalUAVid) for semantic segmentation is presented. The videos have been acquired in a closed university campus, and fine annotation is provided for four background classes viz. constructions, greeneries, roads, and waterbodies. Also, the performance of four semantic segmentation approaches: Conditional Random Field (CRF), U-Net, Fully Convolutional Network (FCN) and DeepLabV3+ are analysed on ManipalUAVid dataset. It is seen that these algorithms perform competitively on UAV aerial video dataset and achieves an mIoU of 0.86, 0.86, 0.86 and 0.83 respectively},
+  html = {https://ieeexplore.ieee.org/document/8835008},
+  pdf = {IEEE_Access_GirishPgNb.pdf}
 }
 
 @article{pai2020improved,
@@ -95,7 +119,10 @@
   number={01},
   pages={55--69},
   year={2020},
-  publisher={World Scientific Publishing Company}
+  publisher={World Scientific Publishing Company},
+  abstract = {The availability of computationally efficient and powerful Deep Learning frameworks and high-resolution satellite imagery has created new approach for developing complex applications in the field of remote sensing. The easy access to abundant image data repository made available by different satellites of space agencies such as Copernicus, Landsat, etc. has opened various avenues of research in monitoring the world’s oceans, land, rivers, etc. The challenging research problem in this direction is the accurate identification and subsequent segmentation of surface water in images in the microwave spectrum. In the recent years, deep learning methods for semantic segmentation are the preferred choice given its high accuracy and ease of use. One major bottleneck in semantic segmentation pipelines is the manual annotation of data. This paper proposes Generative Adversarial Networks (GANs) on the training data (images and their corresponding labels) to create an enhanced dataset on which the networks can be trained, therefore, reducing human effort of manual labeling. Further, the research also proposes the use of deep-learning approaches such as U-Net and FCN-8 to perform an efficient segmentation of auto annotated, enhanced data of water body and land. The experimental results show that the U-Net model without GAN achieves superior performance on SAR images with pixel accuracy of 0.98 and F1 score of 0.9923. However, when augmented with GANs, the results saw a rise in these metrics with PA of 0.99 and F1 score of 0.9954.},
+  html = {https://www.worldscientific.com/doi/abs/10.1142/S1793351X20400036},
+  pdf = {Vaibhav-IJSC_2020.pdf}
 }
 
 @article{prabhu2020thread,
@@ -106,21 +133,23 @@
   number={45},
   pages={26853--26861},
   year={2020},
-  publisher={Royal Society of Chemistry}
+  publisher={Royal Society of Chemistry},
+  abstract = {This study employs a commercial multifilament cotton thread as a low-cost microbial identification assay integrated with smartphone-based imaging for high throughput and rapid detection of pathogens. The thread device with inter-twined fibers was drop-cast with test media and a pH indicator. The target pathogens scavenge the media components with different sugars and release acidic by-products, which in turn act as markers for pH-based color change. The developed thread-based proof-of-concept was demonstrated for the visual color detection (red to yellow) of Candida albicans (≈16 hours) and Escherichia coli (≈5 hours). Besides that, using a smart-phone to capture images of the thread-based colorimetric assay facilitates early detection of turning point of the pH-based color change and further reduces the detection time of pathogens viz. Candida albicans (≈10 hours) and Escherichia coli (≈1.5 hours). The reported thread and smartphone integrated image analysis works towards identifying the turning point of the colorimetric change rather than the end-point analysis. Using this approach, the interpretation time can be significantly reduced compared to the existing conventional microbial methods (≈24 hours). The thread-based colorimetric microbial assay represents a ready-to-use, low-cost and straightforward technology with applicability in resource-constrained environments, surpassing the need for frequent fresh media preparation, expensive instrumentation, complex fabrication techniques and expert intervention. The proposed method possesses high scalability and reproducibility, which can be further extended to bio(chemical) assays.},
+  html ={https://pubs.rsc.org/en/content/articlehtml/2020/ra/d0ra05190j},
+  pdf = {Anusha-2020.pdf},  
+  selected={true}
 }
 
-@article{shorewala2020weed,
-  title={Weed Density and Distribution Estimation for Precision Agriculture using Semi-Supervised Learning},
-  author={Shorewala, Shantam and Ashfaque, Armaan and Verma, Ujjwal and others},
-  journal={arXiv preprint arXiv:2011.02193},
-  year={2020}
-}
+
 
 @article{verma2020uvid,
-  title={UVid-Net: Enhanced Semantic Segmentation of UAV Aerial Videos by Embedding Temporal Information},
-  author={Verma, Ujjwal and Pai, Radhika and others},
-  journal={arXiv preprint arXiv:2011.14284},
-  year={2020}
+  author={Girisha, S* and Verma, Ujjwal* and Pai, Manohara MM and Pai, Radhika M},
+  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing}, 
+  title={UVid-Net: Enhanced Semantic Segmentation of UAV Aerial Videos by Embedding Temporal Information}, 
+  year={2021},
+  abstract = {Semantic segmentation of aerial videos has been extensively used for decision making in monitoring environmental changes, urban planning, and disaster management. The reliability of these decision support systems is dependent on the accuracy of the video semantic segmentation algorithms. The existing CNN based video semantic segmentation methods have enhanced the image semantic segmentation methods by incorporating an additional module such as LSTM or optical flow for computing temporal dynamics of the video which is a computational overhead. The proposed research work modifies the CNN architecture by incorporating temporal information to improve the efficiency of video semantic segmentation. In this work, an enhanced encoder-decoder based CNN architecture (UVid-Net) is proposed for UAV video semantic segmentation. The encoder of the proposed architecture embeds temporal information for temporally consistent labelling. The decoder is enhanced by introducing the feature-refiner module, which aids in accurate localization of the class labels. The proposed UVid-Net architecture for UAV video semantic segmentation is quantitatively evaluated on extended ManipalUAVid dataset. The performance metric mIoU of 0.79 has been observed which is significantly greater than the other state-of-the-art algorithms. Further, the proposed work produced promising results even for the pre-trained model of UVid-Net on urban street scene with fine tuning the final layer on UAV aerial videos.},
+  html = {https://ieeexplore.ieee.org/document/9392319},
+  selected={true}
 }
 
 @inproceedings{shreesha2020computer,
