@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Few Computer Vision Projects
+description: Computer Vision Projects
 nav: true
 ---
 
