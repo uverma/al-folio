@@ -22,7 +22,7 @@ importance: 1
     </div>
 </div>
 <div class="caption">
-    Screenshot of [Cleed](https://cleed.ai/) Website.
+    Screenshot of <a href="https://cleed.ai/" target="_blank">Cleed</a>  () Website.
 </div>
 
 
