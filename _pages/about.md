@@ -6,7 +6,7 @@ description: <a href="https://manipal.pure.elsevier.com/en/persons/ujjwal-verma"
 
 profile:
   align: right
-  image: Ujjwal-Cropped1_300dpi.jpg
+  image: ujjwal12.jpg
   address: >
     <p>Department of Electronics and Communication Engg,</p>
     <p>Manipal Institute of Technology,</p>
