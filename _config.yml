@@ -156,7 +156,7 @@ scholar:
   last_name: Verma
   first_name: Ujjwal
 
-  style: apa
+  style: ieee
   locale: en
 
   source: /_bibliography/
